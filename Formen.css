@@ -1,6 +1,9 @@
 /* Style the header */
 .header {
     background-color: #666;
+    background-repeat: no-repeat;
+    background-image:url(kantine/imageshop.ashx.jpeg);
+    background-size: 100%;
     padding: 30px;
     text-align: center;
     font-size: 35px;
