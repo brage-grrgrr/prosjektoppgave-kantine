@@ -1,50 +1,74 @@
 /* Style the header */
-header {
+.header {
     background-color: #666;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
 }
-  
+
+/* Container for flexboxes */
+.section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
 /* Create two columns/boxes that floats next to each other */
-nav {
+.nav {
     float: left;
-    width: 30%;
+    width: 15%;
     height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
+ 
     padding: 20px;
 }
   
 /* Style the list inside the menu */
-nav ul {
+.nav ul {
     list-style-type: none;
     padding: 0;
 }
   
-article {
+.article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 85%;
     background-color: #f1f1f2;
     height: 300px; /* only for demonstration, should be removed */
 }
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
   
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
 /* Clear floats after the columns */
-section::after {
+.section::after {
     content: "";
     display: table;
     clear: both;
 }
   
 /* Style the footer */
-footer {
+.footer {
     background-color: #777;
     padding: 10px;
     text-align: center;
     color: white;
 }
-  
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
     nav, article {
