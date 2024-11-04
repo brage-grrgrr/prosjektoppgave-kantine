@@ -38,7 +38,9 @@
     background-color: #f1f1f2;
     height: 80%; /* decides the length of the article so that nothing overlaps with nav */
 }
-
+.imagehidden {
+  empty-cells: hide;
+}
 
 li a {
     display: block;
@@ -71,8 +73,9 @@ li a:hover:not(.active) {
   border: 2px solid #04AA6D;
 }
 
-.box {
-  border: 2px solid yellowgreen;
+/*endrer img til usynlig så man ikke kan se veggeb til bildet*/
+img {
+  visibility: hidden;
 }
 
 /* Clear floats after the columns */
