@@ -36,7 +36,7 @@
     padding: 20px;
     width: 85%;
     background-color: #f1f1f2;
-    height: 300px; /* only for demonstration, should be removed */
+    height: 80%; /* decides the length of the article so that nothing overlaps with nav */
 }
 
 
@@ -71,6 +71,10 @@ li a:hover:not(.active) {
   border: 2px solid #04AA6D;
 }
 
+.box {
+  border: 2px solid yellowgreen;
+}
+
 /* Clear floats after the columns */
 .section::after {
     content: "";
@@ -93,3 +97,4 @@ li a:hover:not(.active) {
       height: auto;
     }
 }
+
