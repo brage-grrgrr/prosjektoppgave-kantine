@@ -74,7 +74,7 @@ li a:hover:not(.active) {
 }
 
 /*endrer img til usynlig så man ikke kan se veggeb til bildet*/
-img {
+.imgbox {
   visibility: hidden;
 }
 
