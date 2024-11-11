@@ -116,3 +116,21 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_img_src2
 koden jeg brutke til å lagge layoute til netsiden min
 https://www.w3schools.com/html/html_layout.asp
 
+
+## tilbakemelding
+
+### oppgaver
+•	ha to skjermer delt samtidig for å se om netsiden ser fortsatt bra ut
+•	Trykk på navbarene.
+•	Trykk på dagene.
+### spørsmål og svar
+•	Så nettsiden fortsatt finn ut når den ble mindre.
+Den så fortsatt fin ut når netsiden ble mindre når kjermen ble splittet opp
+•	Er teksten klar og tydelig.
+Teksten er klar og tydelig
+•	Hvar navigasjonen enkel og fin.
+Enkelt og fint
+•	Var informasjon om hva hver dag tilbe hørte bra.
+Finn men ville ha vært fint vis allergisk innehold sto ved siden av hva maten var til mandag til fredag.
+### hva jeg burde gjøre
+Jeg burde kansje programere det slikk at når en dag blir trykket så vil risiko for alergi stå ved siden av bildet.
