@@ -134,3 +134,6 @@ Enkelt og fint
 Finn men ville ha vært fint vis allergisk innehold sto ved siden av hva maten var til mandag til fredag.
 ### hva jeg burde gjøre
 Jeg burde kansje programere det slikk at når en dag blir trykket så vil risiko for alergi stå ved siden av bildet.
+
+### hva jeg gjordet
+de fleste matvarene inneholdet ikke noe de fleste har alergisk reaksjon til så jeg barre skrev at de som har noen slags type allergi kan ringe
